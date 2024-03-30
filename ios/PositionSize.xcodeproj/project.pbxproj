@@ -467,8 +467,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+<<<<<<< HEAD:ios/PositionSize.xcodeproj/project.pbxproj
 				INFOPLIST_FILE = "PositionSize/Info.plist";
              INFOPLIST_KEY_CFBundleDisplayName = "Position Size";
+=======
+				INFOPLIST_FILE = PositionSizeCalc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Position Size Calc";
+>>>>>>> e459e89 (done):ios/PositionSizeCalc.xcodeproj/project.pbxproj
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,8 +499,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+<<<<<<< HEAD:ios/PositionSize.xcodeproj/project.pbxproj
 				INFOPLIST_FILE = "PositionSize/Info.plist";
              INFOPLIST_KEY_CFBundleDisplayName = "Position Size";
+=======
+				INFOPLIST_FILE = PositionSizeCalc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Position Size Calc";
+>>>>>>> e459e89 (done):ios/PositionSizeCalc.xcodeproj/project.pbxproj
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,10 +592,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -653,10 +660,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

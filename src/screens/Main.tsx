@@ -62,37 +62,45 @@ const Main = () => {
         <Center px={'$9'} h={'$full'}>
           <VStack gap={'$6'} w={'$full'} py={'$6'}>
             <Heading>Position Calculator</Heading>
-            <HStack gap={'$3'}>
-              <UIInput
-                title="Entry price"
-                onChangeText={setEntry}
-                value={entry}
-              />
-              <UIInput title="Stop loss" onChangeText={setStop} value={stop} />
-            </HStack>
-            <UIInput
-              title="Risk/reward"
-              onChangeText={setRatio}
-              value={ratio}
-              showInfo
-              infoData="RR Ratio"
-            />
-            <UIInput
-              title="Risk (USD)"
-              onChangeText={setRisk}
-              value={risk}
-              showInfo
-              infoData="Risk in USD"
-            />
-            <UIInput
-              title="Commissions %"
-              onChangeText={setCommission}
-              value={commission}
-              showInfo
-              infoData="Commission %"
-            />
+            {!posSize && (
+              <>
+                <HStack gap={'$3'}>
+                  <UIInput
+                    title="Entry price"
+                    onChangeText={setEntry}
+                    value={entry}
+                  />
+                  <UIInput
+                    title="Stop loss"
+                    onChangeText={setStop}
+                    value={stop}
+                  />
+                </HStack>
+                <UIInput
+                  title="Risk/reward"
+                  onChangeText={setRatio}
+                  value={ratio}
+                  showInfo
+                  infoData="RR Ratio"
+                />
+                <UIInput
+                  title="Risk (USD)"
+                  onChangeText={setRisk}
+                  value={risk}
+                  showInfo
+                  infoData="Risk in USD"
+                />
+                <UIInput
+                  title="Commissions %"
+                  onChangeText={setCommission}
+                  value={commission}
+                  showInfo
+                  infoData="Commission %"
+                />
+              </>
+            )}
             <Button
-              onPress={posSize ? calcDataHandler : calcDataHandler}
+              onPress={posSize ? resetDataHandler : calcDataHandler}
               $active-opacity={0.9}
               borderRadius={'$lg'}
               bg="$info700"
@@ -112,11 +120,13 @@ const Main = () => {
                     value={posSize}
                     color="$trueGray600"
                   />
+                  <InfoItem title="Entry:" value={entry} color="$trueGray600" />
                   <InfoItem
                     title="T/P:"
                     value={profitLevel}
                     color="$trueGray600"
                   />
+                  <InfoItem title="S/L:" value={stop} color="$trueGray600" />
                   <InfoItem
                     title="Entry commission:"
                     value={`-$${entryCommission}`}
