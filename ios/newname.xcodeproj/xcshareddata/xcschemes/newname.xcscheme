@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "PositionSizeCalc.app"
-               BlueprintName = "PositionSizeCalc"
-               ReferencedContainer = "container:PositionSizeCalc.xcodeproj">
+               BuildableName = "newname.app"
+               BlueprintName = "newname"
+               ReferencedContainer = "container:newname.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "PositionSizeCalcTests.xctest"
-               BlueprintName = "PositionSizeCalcTests"
-               ReferencedContainer = "container:PositionSizeCalc.xcodeproj">
+               BuildableName = "newnameTests.xctest"
+               BlueprintName = "newnameTests"
+               ReferencedContainer = "container:newname.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "PositionSizeCalc.app"
-            BlueprintName = "PositionSizeCalc"
-            ReferencedContainer = "container:PositionSizeCalc.xcodeproj">
+            BuildableName = "newname.app"
+            BlueprintName = "newname"
+            ReferencedContainer = "container:newname.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "PositionSizeCalc.app"
-            BlueprintName = "PositionSizeCalc"
-            ReferencedContainer = "container:PositionSizeCalc.xcodeproj">
+            BuildableName = "newname.app"
+            BlueprintName = "newname"
+            ReferencedContainer = "container:newname.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
