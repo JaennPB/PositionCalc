@@ -472,7 +472,7 @@
              INFOPLIST_KEY_CFBundleDisplayName = "Position Size";
 =======
 				INFOPLIST_FILE = PositionSizeCalc/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Position Size Calc";
+				INFOPLIST_KEY_CFBundleDisplayName = "Position Size";
 >>>>>>> e459e89 (done):ios/PositionSizeCalc.xcodeproj/project.pbxproj
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -504,7 +504,7 @@
              INFOPLIST_KEY_CFBundleDisplayName = "Position Size";
 =======
 				INFOPLIST_FILE = PositionSizeCalc/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Position Size Calc";
+				INFOPLIST_KEY_CFBundleDisplayName = "Position Size";
 >>>>>>> e459e89 (done):ios/PositionSizeCalc.xcodeproj/project.pbxproj
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
